@@ -1,0 +1,21 @@
+Write a function to check if one string is a rotation of another.
+Example: "abcde", "deabc" → true
+
+Write a function to find the length of the longest word in a string.
+Example: "The quick brown fox" → 5 (for "quick")
+
+Advanced String Problems
+Write a function to compress a string by replacing consecutive repeating characters with the count of repetitions.
+Example: "aaabbc" → "a3b2c1"
+
+Write a function to find all substrings of a given string.
+Example: "abc" → ["a", "b", "c", "ab", "bc", "abc"]
+
+Write a function to check if a string is an anagram of another string.
+Example: "listen", "silent" → true
+
+Write a function to find the first non-repeating character in a string.
+Example: "swiss" → "w"
+
+Write a function to check if a string contains only digits.
+Example: "12345" → true, "12a45" → false

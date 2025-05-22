@@ -216,6 +216,31 @@ class linkedList {
 
         }
     }
+
+    removeKthElementEnd(k){
+        let index = this.size - k
+        let prev = null
+        let curr = this.head
+        for(let i = 0; i < index; i++){
+            prev = curr
+            curr = curr.next
+        }
+        prev.next = curr.next
+        this.size--
+    }
+//HAS ERRORS
+    removeEvenNumbers(){
+        let curr = this.head
+        let prev = null
+        while(curr){
+            if(curr.value % 2 === 0){
+                prev.next = curr.next
+                this.size--
+            }
+            prev = curr
+            curr = curr.next
+        }
+    }
 }
 
 const list = new linkedList()
